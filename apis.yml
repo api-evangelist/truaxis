@@ -1,4 +1,16 @@
 aid: truaxis
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truaxis.png
 name: Truaxis
 description: 'Truaxis is a company surfaced as a portfolio company of trinity-ventures and added to the
   API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
@@ -12,7 +24,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
@@ -22,3 +34,12 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'No API surface. Primary domain www.truaxis.com does not resolve (getaddrinfo
+    ENOTFOUND); no hosts to probe; APIs.io catalog returns zero matches. Truaxis was
+    a Trinity Ventures fintech acquired by Mastercard (2012) and folded, so there is
+    no live developer surface to search, derive, or probe.'
